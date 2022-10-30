@@ -10,7 +10,7 @@ Console.WriteLine("Введите количество строк: ");
 int m = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите количество столбцов: ");
 int n = int.Parse(Console.ReadLine());
-int[,] array = new int[5, 5];
+int[,] array = new int[m, n];
 
 void CreateArrayint(int[,] array)
 {
